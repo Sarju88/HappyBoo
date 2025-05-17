@@ -2,7 +2,12 @@ name: Build and Publish Godot Game
 
 on:
   push:
-    branches: [main]  # change to your main branch
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   export-html5:
