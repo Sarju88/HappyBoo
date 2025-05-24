@@ -29,7 +29,7 @@ jobs:
         run: mkdir -p build/web
 
       - name: Export HTML5 game
-        run: godot --headless --export-release "HTML5" build/web/index.html
+        run: godot --headless --export-release "Web"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
