@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up Godot
-        uses: chickensoft-games/setup-godot@v1
+        uses: chickensoft-games/setup-godot@v2.2.0
         with:
           version: 4.4.1  # or 3.5.2 depending on your project
           export-templates: true
