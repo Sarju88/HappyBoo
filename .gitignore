@@ -14,3 +14,7 @@ export_credentials.cfg
 .mono/
 data_*/
 mono_crash.*.json
+build/
+docs/web/happyboo.apple-touch-icon.png.import
+docs/web/happyboo.icon.png.import
+docs/web/happyboo.png.import
