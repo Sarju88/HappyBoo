@@ -18,3 +18,5 @@ build/
 docs/web/happyboo.apple-touch-icon.png.import
 docs/web/happyboo.icon.png.import
 docs/web/happyboo.png.import
+.DS_Store
+.DS_Store
